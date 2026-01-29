@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+**Portfolio Theme Customizer**
+
+An interactive portfolio website built with React.js that allows users to customize the theme in real-time. Includes light/dark mode, primary color selection, and animated transitions using Framer Motion. Preferences are saved in localStorage so the chosen theme persists across sessions.
+Key Features:
+- Theme customizer panel with live preview
+- Light/Dark mode toggle with animated icons
+- Primary color picker with instant updates
+- Smooth animations using Framer Motion
+- Saved preferences with localStorage
+
+**🛠️ Tech Stack**
+
+**- Frontend**: React.js, Tailwind CSS, Framer Motion
+
+**- State Management**: React Hooks
+
+**- Storage**: LocalStorage (for Theme Customizer)
+
+>>>>>>> 8259b3578339431bf9efe4189654e297da729dca
