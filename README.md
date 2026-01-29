@@ -9,7 +9,10 @@ Key Features:
 - Saved preferences with localStorage
 
 **🛠️ Tech Stack**
+
 **- Frontend**: React.js, Tailwind CSS, Framer Motion
+
 **- State Management**: React Hooks
+
 **- Storage**: LocalStorage (for Theme Customizer)
 
