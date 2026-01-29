@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #4CAF50;
+}
+
+.app {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.app.light {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.app.dark {
+  background: #121212;
+  color: #f9f9f9;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg);
+}
+
+.portfolio {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.card h3 {
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.theme-customizer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.theme-customizer button.active {
+  background: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+}
